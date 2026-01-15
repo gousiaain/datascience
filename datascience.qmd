@@ -1,0 +1,15 @@
+---
+title: "data science"
+format: html
+editor: visual
+---
+
+```{r}
+library(tidyverse)
+library(readr)
+library(readxl)
+data <- read.csv("Heart_Disease_Prediction.csv")
+
+view(data)
+
+```
